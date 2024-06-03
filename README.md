@@ -1,6 +1,6 @@
 # Running bot
 ```sh
-git clone https://github.com/SastaDev/y2mate-bot
+git clone https://github.com/SastaDev/y2mate-bot.git
 cd y2mate-bot/src
 nano tgbot/config.py
 python -m tgbot
