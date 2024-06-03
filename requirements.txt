@@ -1,0 +1,2 @@
+pyrogram
+git+https://github.com/zrekryu/y2mate.git
