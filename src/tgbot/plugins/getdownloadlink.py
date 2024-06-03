@@ -28,7 +28,7 @@ async def on_getdlink(_, message) -> None:
         )
     
     buttons = []
-    max_items = 3
+    max_items = 2
     if metadata.video_links:
         buttons.append([InlineKeyboardButton("📹 Video:", callback_data="nocallback_data")])
         
