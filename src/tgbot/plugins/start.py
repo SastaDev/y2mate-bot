@@ -11,4 +11,4 @@ async def on_start(_, message) -> None:
         [InlineKeyboardButton("📝 Source code", url="https://github.com/SastaDev/y2mate-bot")],
         [InlineKeyboardButton("🆘 Help group", url="https://t.me/KangersChat")]
         ]
-    await message.reply(text, reply_markup=InlineKeyboardMarkup(buttons), disable_webpage_preview=True)
+    await message.reply(text, reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
